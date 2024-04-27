@@ -1,0 +1,437 @@
+<html>
+	<head>
+	  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	
+	<title>index</title>
+	<style>
+	  * {
+  padding: 0px;
+  margin: 0px;
+  scroll-behavior: smooth;
+  user-select: none;
+  }
+
+  body {
+  font-family: Sans-Serif;
+  }
+  /*Nav*/
+  nav {
+  display: flex;
+  background-color: #333A73;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  color: white;
+  font-family: Product-sans;
+  font-size: 15px;
+  cursor: pointer;
+  }
+  .logo {
+  padding: 10px;
+  border-radius: 10px;
+  }
+  .logo:hover {
+  transition: 1.1s;
+  background-color: #0B60B0;
+  }
+  nav ul {
+ list-style: none;
+  display: flex;
+  }
+  nav li a:hover {
+  transition: 1.1s;
+  background-color: #74E291;
+
+  }
+  nav a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  border-radius: 8px;
+  }
+
+  /*Section-hero*/
+  .section-hero {
+  width: 100%;
+  height: 450px;
+  background: #0B60B0;
+  font-family: montserrat;
+
+  }
+
+  .section-hero h1 {
+  display: block;
+  padding-top: 10%;
+  margin-left: 20%;
+  font-size: 20px;
+  color: white;
+  }
+
+  .section-hero p {
+  display: block;
+  margin-left: 20%;
+  font-size: 40px;
+  font-weight: 500px;
+  color: white;
+  display: flex;
+  }
+
+  .section-hero button {
+  width: 80px;
+  margin-left: 20%;
+  height: 30px;
+  font-size: 15px;
+  font-family: montsserat;
+  background-color: #74E291;
+  border: none;
+  border-radius: 10px;
+  margin-top: 25px;
+  cursor: pointer;
+  color: white;
+  box-shadow: 16px;
+  }
+
+  .section-hero button:hover {
+  background-color: orangered;
+  transition: 1s;
+  box-shadow: 1rem;
+  }
+  .section-hero h3 {
+  font-size: 15px;
+  padding-left: 20%;
+  padding-top: 20px;
+  font-size: 20px;
+  color: white;
+  }
+  .section-hero img {
+  width: 300px;
+  height: 340px;
+  float: right;
+  margin-right: 50px;
+  border-radius: 20px;
+  box-shadow: 40px 40px 40px rgba(0, 0, 0, 0.3);
+  margin-top: 50px;
+  }
+  /*Section-main*/
+  .section-main {
+  width: 100%;
+  height: 300px;
+  background-color: #0B60B0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .section-main h1 {
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+  font-family: product-sans;
+  font-size: 25px;
+
+  }
+  .section-main p {
+  padding-top: 10px;
+  text-align: center;
+  font-family: product-sans;
+  color: white;
+  font-size: 20px;
+  }
+  .section-main img {
+  width: 60px;
+  height: 60px;
+  display: column;
+  color: white;
+  padding-top: 10px;
+  }
+
+  /*Section-portofolio*/
+  .section-portofolio{
+  width: 100%;
+  height: 250px;
+  background-color: #0B60B0;
+  font-family: montserrat;
+  }
+  .section-portofolio h1{
+  text-align: center;
+  color: whitesmoke;
+  display: fixed;
+  }
+	.section-portofolio .card{
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  gap: 13px;
+    padding-top:15px;
+    height: auto;
+	}
+.section-portofolio .content{
+	   text-align: center;
+     cursor: pointer;
+     font-size: 10px;
+  }
+  .section-portofolio img {
+  width: 90px;
+  height: 100px;
+  border-radius: 10px;
+  }
+  /*card-one*/
+  .section-portofolio .card-one{
+  background-color: white;
+  width: 90px;
+  border-radius: 10px;
+  }
+  .section-portofolio .card-one:hover{
+	transform: scale(1.2);
+  transition: 1.1s;
+  }  
+  .section-portofolio .card-one img:hover{
+    height: auto;
+  }
+.section-portofolio .card-one .content h3:hover{
+  color: red;
+  transition: 1.1s;
+}
+.section-portofolio .card-one .content p:hover{
+  color:red;
+  transition: 1.1s;
+}
+/*card-two*/
+  .section-portofolio .card-two{
+  background-color: white;
+  width: 90px;
+  border-radius: 10px;
+  }
+  .section-portofolio .card-two img{
+    height:auto;
+  }
+   .section-portofolio .card-two:hover{
+     transform: scale(1.2);
+     transition: 1.1s;
+   }
+   .section-portofolio .card-two .content h3:hover{
+  color: gray;
+  transition: 1.1s;
+}
+.section-portofolio .card-two .content p:hover{
+  color: gray;
+  transition: 1.1s;
+ } /*card-three*/
+  .section-portofolio .card-three{
+  background-color: white;
+  width: 90px;
+  border-radius: 10px;
+  }
+  .section-portofolio .card-three img:hover{
+    height:auto;
+  }
+  .section-portofolio .card-three:hover{
+    transform: scale(1.2);
+    transition: 1.1s;
+  }
+  .section-portofolio .card-three .content h3:hover{
+  color: crimson;
+  transition: 1.1s;
+  }
+  .section-portofolio .card-three .content p:hover{
+  color: crimson;
+  transition: 1.1s;
+  }
+  /*card-four*/
+  .section-portofolio .card-four{
+  background-color: white;
+  width: 90px;
+  border-radius: 10px;
+  }
+  .section-portofolio .card-four:hover{
+    transform: scale(1.2);
+    transition: 1.1s;
+  }
+  .section-portofolio .card-four img:hover{
+    height: auto;
+    transition: 1.1s;
+  }
+  .section-portofolio .card-four .content h3:hover{
+  color: darkred;
+  transition: 1.1s;
+  }
+  .section-portofolio .card-four .content p:hover{
+  color: darkred;
+  transition: 1.1s;
+  }
+  /*section-question*/
+  .section-question {
+  width: 100%;
+  height: 100px;
+  background-color: #0B60B0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: montserrat;
+  color: white;
+  }
+  .section-question judul {
+  font-size: 15px;
+  font-size: 25px;
+  color: #00224D;
+
+  }
+  /*.section-question h3 {
+	    padding-top: 15px;
+	    font-size: 18px;
+	    text-align: center;
+	    color: #00224D;
+	  }
+	  .section-question input {
+	    height: 35px;
+	    width: 450px;
+	    border-radius: 10px;
+	    border: none;
+	    padding-top: 2px;
+	    margin-top: 10px;
+	    font-size: 15px;
+	    margin-top: 10px;
+	    text-align: center;
+	    font-weight: 900;
+	  }*/
+  .section-question button {
+  height: 35px;
+  margin-top: 15px;
+  width: 100px;
+  font-size: 15px;
+  font-weight: 900px;
+  border-radius: 8px;
+  border: none;
+  font-family: montsserat;
+  color: white;
+  background-color: #74E291;
+  }
+  .section-question button:hover{
+  background-color: orangered;
+  transition: 1.1s;
+  cursor: pointer;
+  }
+  span{
+  color: coral;
+  }
+  footer {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  width: 100%;
+  background-color: #74E291;
+  align-items: center;
+  font-family: produt-sans;
+  font-size: 10px;
+  }
+
+</style>
+	
+	</style>
+	</head>
+	<body>
+	<nav>
+	<h1 class="logo">Fa</h1>
+	<ul>
+	<li><a href="#service">Service</a></li>
+	<li><a href="#porto">Portofolio</a></li>
+	
+	</ul>
+	</nav>
+
+	<!--Hero-->
+	<div class="section-hero">
+	<img src="farhan.png" alt="">
+	<h1>Hallo ini saya</h1>
+	<p class="name">
+	Catur Khoirun Farhan
+	</p>
+	<h3>Saya merupakan seorang Fresh graduate yang memiliki beberapa keahlian terkait kemampuan yang saya tekuni.
+	<span> Untuk itu silahkan chat saya di bawah ini</span> mari tanyakan terkait apa yang anda butuhkan.</h3>
+	<button class="btn-cta" onclick="redirWhatsapp()">Hubungi</button>
+	</div>
+
+	<!--service-->
+	<div class="section-main" id="service">
+	<h1>Service</h1>
+	<img src="service.svg" alt="">
+	<p>
+	Menawarkan jasa pembuatan Twibone & idcard untuk event kantor dan sekolah
+	</p>
+	<img src="penulis.svg" alt="">
+	<p>
+	Anda memiliki pekerjaan laporan perjalanan studytour, kami siap membantu
+	</p>
+	</div>
+
+	<!--portofolio-->
+	<div class="section-portofolio" id="porto">
+		<h1>My portofolio</h1>
+	<div class="card">
+		
+    <div class="card-one">
+		<img src="poster donor darah.PNG" alt="" class="1" >
+		<div class="content">
+		<h3>Poster</h3>
+		<p>Umumkan bentuk acara anda lewat selembaran kertas</p>	
+		</div>  
+		</div>
+
+		<div class="card-two">
+			<img src="id card.png" alt="" class="2" >
+			<div class="content">
+			<h3>Id card</h3>
+			<p>Berikan identitas anda, sebagai branding pribadi</p>	
+			</div>  
+			</div>
+
+			<div class="card-three">
+				<img src="TIBO.png" alt="" class="3" >
+				<div class="content">
+				<h3>Twibone</h3>
+				<p>  Promosikan campaign ajakan yang sedang di jalankan.</p>	
+				</div>  
+				</div>
+
+				<div class="card-four">
+					<img src="mmt donor.PNG" alt="" class="4" >
+					<div class="content">
+					<h3>Mmt</h3>
+					<p>
+					Media yang menghemat biaya</p>	
+					</div>  
+					</div>
+		 </div>
+		 
+	 
+</div>
+	<!--Contac Us-->
+	<div class="section-question">
+	<div class="judul">
+	<h1>Informasi lebih lanjut</h1>
+	</div>
+	
+	<!--<div class="form">
+	<h3>Pertanyaan</h3>
+	<input type="text" placeholder="Tanyain aja sekarang">
+	<h3>Nama</h3>
+	<input type="text" placeholder="Namamu yaa, biar kenal">
+	<h3>Email</h3>
+	<input type="text" placeholder="Email">
+	</div>-->
+	<a href="mailto:farhan@gmail.com/a>
+	<!--<button class="btn-submit>Contac me</button>
+	
+	</div>
+	
+	<!--Footer-->
+	<footer>
+	<h3>Farhandillavers43@gmail.com</h3>
+	</footer>
+	
+	<script>
+	function redirWhatsapp() {
+	window.location.href = "https://wa.me/089677982700"
+	}
+  	</script>
+	</body>
+	</html>
